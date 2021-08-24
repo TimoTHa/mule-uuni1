@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="uuni1Flow" doc:id="fdb468c8-3291-4641-98d4-af96d6cfbdc6" >
 		<http:listener doc:name="Listener" doc:id="23405fb1-fc54-497d-8528-212d394949c7" config-ref="HTTP_Listener_config" path="/uuni1"/>
-		<logger level="INFO" doc:name="Logger" doc:id="c2688003-8b8f-40fb-af30-1af71529cc97" />
+		<logger level="INFO" doc:name="Logger" doc:id="c2688003-8b8f-40fb-af30-1af71529cc97" message="timotest"/>
 	</flow>
 </mule>
